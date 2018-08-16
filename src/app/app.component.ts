@@ -8,9 +8,5 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 export class AppComponent {
   title = 'RecipieShoppingProject';
 
-  loadedFeature = 'recipe';
-  onTabClicked(tabName:string)
-  {
-     this.loadedFeature = tabName;
-  }
+
 }
